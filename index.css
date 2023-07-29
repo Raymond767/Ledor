@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;  
+}
+
+p {
+    margin-bottom: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+
+/* header */
+
+#parent {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #222;
+    line-height: 1.6em;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+}
+
+header h2 a {
+    font-family: cursive;
+    color: #f1c40f;
+}
+
+header ul a:hover {
+    margin: 0;
+    background-color: #555;
+    padding: 2rem;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    flex-flow: row wrap;
+    padding: 0 1rem;   
+}
+
+header ul li a {
+    color: whitesmoke;
+}
+
+/* container_1 */
+
+.container_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    background: url(frame.jpg) center center;
+    width: 100%;
+    height: 90vh;
+    color: whitesmoke;
+}
+
+.content_1{
+    width: 50%;
+}
+
+span{
+    color: #f1c40f;
+}
+
+/* container_2 */
+
+.container_2{
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_2{
+    margin: 1rem;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+}
+
+.container_2 p{
+    font-weight: 500;
+}
+
+.hr{
+    width: 10%;
+}
+
+.container_2 h2{
+    margin-top: 6rem;
+}
+
+.app{
+    padding: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.app1_img{
+    background: url(house-1.jpg) center center;
+    height: 50%;
+}
+
+.app_text{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app2_img{
+    background: url(house-2.jpg) center center;
+    height: 50%;
+}
+
+.app3_img{
+    background: url(house-3.jpg) center center;
+    height: 50%;
+}
+
+/* container_3 */
+
+.container_3{
+    width: 100%;
+    display: flex;
+    height: 50vh;
+}
+
+.content_3_1{
+    width: 50%;
+    background: url(team.jpg);
+    background-size: cover;
+}
+
+.content_3_2{
+    background-color: #222;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.content_3_2 h2{
+    font-size: 2.1rem;
+}
+
+/* container_4 */
+
+.container_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: #ddd;
+}
+
+.content_4{
+    display: flex;
+    width: 60%;
+    height: 5.5rem;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.content_4_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_4_img{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content_4_img img{
+    height: 50%;
+    border-radius: 20px;
+    margin: 0.2rem;
+}
+
+/* contact */
+
+.contact{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    width: 100%;
+    height: 70vh;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input{
+    font-size: 2rem;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background-color: #111;
+    margin: 1rem;
+}
+
+textarea{
+    
+    font-size: 2rem;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background-color: #111;
+}
+
+button{
+    background-color: #555;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    width: 20%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: #555;
+}
+
+footer{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: whitesmoke;
+}
